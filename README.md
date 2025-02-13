@@ -1,27 +1,36 @@
-#Shakti
+# 🌸 Shakti - Women Safety App 🚨
 
-#Overview
+Shakti is a **Flutter-based mobile application** designed to enhance women's safety by offering **real-time tracking, emergency alerts, fake call generation, and spy camera detection**. The app operates seamlessly in the background, ensuring security even when inactive.
 
-Shakti is a Flutter-based mobile application designed for [primary purpose, e.g., "fake call and spy camera detection"]. This app leverages background services to operate when inactive, offering features like real-time location tracking, shake detection to trigger alerts, and automated SMS notifications for emergencies.
+---
 
-#Key Features
+## ✨ Key Features
 
-Real-time Background Location Tracking: Tracks user location in the background using background_location and geolocator.
+✅ **Real-time Background Location Tracking**  
+   - Continuously tracks user location using `background_location` and `geolocator`.  
 
-Shake Detection: Triggers alerts upon detecting a shake event using shake.
+✅ **Shake-to-Alert Emergency System**  
+   - Shake your phone to trigger an **SOS alert**.  
+   - Sends **emergency SMS** with location details to predefined contacts.  
 
-Background Services: Utilizes flutter_background_service and workmanager to run background tasks seamlessly.
+✅ **Spy Camera Detection** 🕵️‍♀️  
+   - Uses the device's **magnetometer** to detect hidden spy cameras.  
 
-Customizable UI Components: Interactive elements, carousel sliders, and animations.
+✅ **Fake Call Feature** 📞  
+   - Generate a **fake incoming call** to escape uncomfortable situations.  
 
-#Usage
+✅ **Background Services** ⚙️  
+   - Uses `flutter_background_service` and `workmanager` for uninterrupted safety features.  
 
-Shake to Alert: Users can trigger alerts by shaking their device. Customize the message and contacts in the app settings.
+✅ **Customizable UI Components** 🎨  
+   - Interactive UI with **carousel sliders, animations, and dynamic elements**.  
 
-Background Location Tracking: Start location tracking, which continues even when the app is in the background.
+---
 
-Send Emergency SMS: If a shake is detected, the app sends an SMS alert with the user's current location.
+## 🚀 Installation & Setup
 
-Fake Call:Fake calls can be generated.
+### 🔹 Prerequisites:
+- Install **Flutter SDK**: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+- Install **Dart**
+- Setup **Android Studio** or **VS Code** with Flutter extensions
 
-Spy Camera Detection:It can be detected through magnetometer.
