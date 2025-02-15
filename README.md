@@ -34,3 +34,8 @@ Shakti is a **Flutter-based mobile application** designed to enhance women's saf
 - Install **Dart**
 - Setup **Android Studio** or **VS Code** with Flutter extensions
 
+### 🔹 Steps to Run the App:
+- cd shakti-women-safety
+- flutter pub get
+- flutter run
+
